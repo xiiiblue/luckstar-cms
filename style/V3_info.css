@@ -1,0 +1,52 @@
+/* CSS Document */
+
+body,td,th {color: #5D5D5D;font-size: 12px;font-family: Arial, Verdana, 宋体;}
+body {background-image:url(../images/Lii_01.jpg);background-repeat: repeat-x;background-color: #063436;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px}
+a:link{color:#5D5D5D; text-decoration:none}
+a:visited{color:#5D5D5D; text-decoration:none}
+a:hover{color:#009900; text-decoration:none}
+a:active{color:#5D5D5D; text-decoration:none}
+
+.left{height:521px;	background-image:url(../images/L.S_15.jpg);background-repeat:repeat-x;background-color:#C1E6F6}
+.right{height:521px;background-color:#DFEEF5;}
+/*导航样式*/
+.menu {color:#999999;width:924px;background-image:url(../images/L.S_10.jpg);background-repeat:repeat-x;}
+.menu a:link {color: #E4E4E4;text-decoration: none;font-weight:bold;letter-spacing:1px}
+.menu a:visited {text-decoration: none;color: #E4E4E4;font-weight:bold;letter-spacing:1px}
+.menu a:hover {text-decoration: none;color:#FFFFCC;font-weight:bold;letter-spacing:1px}
+.menu a:active {text-decoration: none;color: #FFFFFF;font-weight:bold;letter-spacing:1px}
+
+/*白色字体*/
+.white {color:#999999;}
+.white a:link {color: #FFFFFF;text-decoration: none;letter-spacing:1px}
+.white a:visited {text-decoration: none;color: #FFFFFF;letter-spacing:1px}
+.white a:hover {text-decoration: none;color:#FFFFCC;letter-spacing:1px}
+.white a:active {text-decoration: none;color: #FFFFFF;letter-spacing:1px}
+
+/*各色字体*/
+.write_big{color:#FFFFFF; font-weight:bold; letter-spacing:1px}
+.yellow{color:#FF6600}
+.blue_01{color:#9CC1D1}
+.blue_02{color:#006699}
+
+
+/*left 链接背景*/
+.left_bg{background:url(../images/L_01.jpg); height:27px; vertical-align:middle}
+.left_bg_over{background:url(../images/L_over.jpg); height:27px}
+/*透明背景*/
+.alpha_write{ background:#FFFFFF; filter:alpha(opacity=20);}
+
+/*表格边框样式*/
+.pro_bg{border:medium solid ;border-color:#FFFFFF; border-width:1px; width:300px; height:200px; background:#CAEFFF}
+/*Main 字体样式*/
+.main_title{color:#006699; font-weight:bold;}
+.main_title a:link {color: #006699;text-decoration: underline;}
+.main_title a:visited {color:#67338A;text-decoration: none;}
+.main_title a:hover {color: #009900;text-decoration: underline;}
+.main_title a:active {color: #006699;text-decoration: none;}
+
+.down_title{color:#009900; font-weight:bold;}
+.down_title a:link {color: #009900;text-decoration: underline;}
+.down_title a:visited {color:#67338A;text-decoration: none;}
+.down_title a:hover {color: #006699;text-decoration: underline;}
+.down_title a:active {color: #006699;text-decoration: none;}

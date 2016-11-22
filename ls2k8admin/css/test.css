@@ -1,0 +1,157 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #fff;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding:10px;
+}
+
+/*动画效果测试*/
+#test1{
+width:100px;
+height:80px;
+border:1px solid blue;
+background-color:#CCCCCC;
+}
+
+
+/*折叠效果测试*/
+#myAccordion{
+	margin-left:10px;
+	margin-top:10px;
+	width: 150px;
+	border: 1px solid #0000FF;
+	/*
+	border: 1px solid #6CAF00;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	*/
+}
+#myAccordion dt{
+	line-height: 20px;
+	/*
+	background-color: #80df20;
+	border-top: 2px solid #DAFF9F;
+	border-bottom: 2px solid #6CAF00;
+	*/
+	background-color: #0066CC;
+	border-top: 2px solid #0099FF;
+	border-bottom: 2px solid #0000FF;
+	padding: 0 10px;
+	font-weight: bold;
+	color: #fff;
+}
+#myAccordion dd{
+	overflow: auto;
+}
+#myAccordion p{
+	margin: 16px 10px;
+}
+#myAccordion dt.myAccordionHover
+{
+	/*background-color: #90ef30;*/
+	background-color: #00CCFF;
+}
+#myAccordion dt.myAccordionActive
+{
+	/*
+	background-color: #6CAF00;
+	border-top: 2px solid #80df20;
+	border-bottom: 2px solid #000;
+	*/
+	background-color: #6699FF;
+	border-top: 2px solid #0099FF;
+	border-bottom: 2px solid #0000FF;
+}
+
+#myAccordion ul{
+	margin:10px 10px;
+	list-style:none;
+}
+#myAccordion li{
+margin:4px 0;
+}
+#myAccordion li a,#myAccordion li a:visited{
+	text-decoration:none;
+	display:block;
+	width:110px;
+	height:24px;
+	line-height:24px;
+	background:url(../images/pro_dot.gif) left center no-repeat;
+	list-style:none;
+	margin:0px;
+	padding-left:15px;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	border:1px solid #00CCFF;
+}
+#myAccordion li a:hover{
+	color:#0099FF;
+	background-color:#CCCCCC;
+
+}
+
+
+
+/*图片展示相关CSS*/
+
+img
+{
+	border: none;
+}
+#ImageBoxOverlay
+{
+	background-color: #000;
+}
+#ImageBoxCaption
+{
+	background-color: #F4F4EC;
+}
+#ImageBoxContainer
+{
+	width: 250px;
+	height: 250px;
+	background-color: #F4F4EC;
+}
+#ImageBoxCaptionText
+{
+	font-weight: bold;
+	padding-bottom: 5px;
+	font-size: 13px;
+	color: #000;
+}
+#ImageBoxCaptionImages
+{
+	margin: 0;
+}
+#ImageBoxNextImage
+{
+	background-image: url(../images/imagebox/spacer.gif);
+	background-color: transparent;
+}
+#ImageBoxPrevImage
+{
+	background-image: url(../images/imagebox/spacer.gif);
+	background-color: transparent;
+}
+#ImageBoxNextImage:hover
+{
+	background-image: url(../images/imagebox/next_image.jpg);
+	background-repeat:	no-repeat;
+	background-position: right top;
+}
+#ImageBoxPrevImage:hover
+{
+	background-image: url(../images/imagebox/prev_image.jpg);
+	background-repeat:	no-repeat;
+	background-position: left bottom;
+}

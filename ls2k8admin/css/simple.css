@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*简单页面的CSS*/
+
+*{
+	font-size:12px;
+	color:#000000;
+}
+.logTb{
+border:1px dotted #66CCFF;
+width:600px;
+}
+.logTb thead{
+font-weight:bold;
+text-align:center;
+background-color:#6699FF;
+}
+.logTb tbody{
+text-align:center;
+}
+/*通用分页的CSS*/
+.splitPage{
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0;
+}
+.splitPage ul{
+	margin:0;
+	padding:0;
+	text-align:left;
+	list-style:none;
+	height:20px;
+}
+.splitPage ul li {
+	display:inline;
+	width:20px;
+	height:20px;
+}
+.splitPage ul li a,.splitPage ul li a:visited{
+	text-decoration: none!important;
+	float:left;
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border:1px solid #ccc;
+	margin:0 4px;
+}
+.splitPage ul li a:hover{
+border:1px dotted #999;
+}
+.splitPageChecked{
+font-size:18px;
+}

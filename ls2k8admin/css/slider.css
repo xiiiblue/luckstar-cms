@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+INPUT.suSlider {
+	background-repeat:no-repeat;		/* Warning: Img may disappear in Firefox if you use 'background-attachment:fixed' ! */
+	background-position:100% -1px;
+	background-image:url(../images/slider/slider_horiz.gif);
+}
+
+INPUT.suSlider.suHilite {				/* Change button img when mouse is over slider button */
+	cursor:w-resize;
+	background-position:100% -21px;		/* 21px matches height of button. (Depends on your chosen image) */
+}

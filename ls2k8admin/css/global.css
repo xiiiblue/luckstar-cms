@@ -1,0 +1,372 @@
+@import url(menu.css);
+@import url(setLanguage.asp);
+.en{}
+.cn{}
+body,td,th {
+	font-size: 12px;
+	color: #333333;
+	font-family:  Arial,宋体, Verdana;
+}
+body {
+	background-color: #353C44;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+img{
+	border:0;
+}
+a {
+	font-size: 12px;
+	color: #333333;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	/*color: #666666;*/
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF9900;
+}
+a:active {
+	text-decoration: none;
+	color: #FF9900;
+}
+-->
+/* 退出链接样式 */
+.out {
+	color: #3C5D70;
+}
+.out a:link {
+	color: #3C5D70;
+	text-decoration: none;
+}
+.out a:visited{
+	color: #3C5D70;
+	text-decoration: none;
+}
+.out a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+.out a:active{
+	text-decoration: none;
+	color: #000000;
+}
+
+/* 导航链接样式 */
+.menu{
+	color: #949494;
+}
+.menu a:link{
+	color: #D8D8DA;
+	text-decoration: none;
+}
+.menu a:visited{
+	color: #D8D8DA;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: none;
+	color: #FFFFCC;
+}
+.menu a:active{
+	text-decoration: none;
+	color: #FFFFCC;
+}
+
+.manager{
+	color: #DEDEDE;
+}
+/* 白色字体链接样式 */
+.white{
+	color:#FFFFFF;
+	letter-spacing: 2px;
+}
+.white a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.white a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.white a:hover{
+	text-decoration: none;
+	color: #FFFFCC;
+	letter-spacing: 2px;
+	font-weight:bold;
+}
+.white a:active{
+	text-decoration: none;
+	color: #FFFFCC;
+	letter-spacing: 2px;
+
+}
+.title
+{
+	color: #333333;
+	font-weight:bold;
+	letter-spacing: 2px;
+}
+/*红色字体*/
+.red
+{
+	color:#FF0000;
+}
+/*绿色字体*/
+.green
+{
+	color:#009900;
+}
+/*状态字体*/
+.check a:link {
+	color: #333333;
+	text-decoration: none;
+}
+.check a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+.check a:hover {
+	text-decoration: underline;
+	font-weight:bold;
+	color: #333333;
+}
+.check a:active {
+	text-decoration: none;
+	color: #333333;
+}
+
+/*分页栏*/
+.splitPage{
+	font-size:14px;
+	font-weight:bold;
+}
+.splitPage ul{
+	margin:0;
+	padding:0;
+	text-align:left;
+	list-style:none;
+	height:20px;
+}
+.splitPage ul li {
+	display:inline;
+	width:20px;
+	height:20px;
+}
+.splitPage ul li a,.splitPage ul li a:visited{
+	text-decoration: none!important;
+	float:left;
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	border:1px solid #ccc;
+	margin:0 4px;
+}
+.splitPage ul li a:hover{
+border:1px dotted #999;
+}
+.splitPageChecked{
+font-size:14px;
+font-weight:bold;
+color:#6699CC;
+}
+
+/*Table悬停变色(productsList.asp)*/
+.tbOdd td{
+background-color:#DAEBEF!important;
+}
+.tbHover td{
+background-color:#C7DAE9!important;
+}
+
+/*表单样式*/
+textarea{
+border:1px solid #C7DAE9;
+margin:1px;
+width:360px;
+font-size:12px;
+}
+.coolInput{
+border:solid 1px #C7DAE9;height:18px; width:360px;
+}
+.coolInput2{
+border:solid 1px #C7DAE9;height:18px; width:200px;
+}
+.coolSelect{
+border:solid 1px #C7DAE9;height:18px; width:360px; color:red;
+}
+
+/*tr悬停变色(productsClass.asp)*/
+.trOdd{
+background-color:#DAEBEF!important;
+}
+.trOdd2{
+background-color:#F6F6F6!important;
+}
+.trHover td{
+background-color:#DAEBEF!important;
+}
+
+/*管理员记录Table,源:adminLogList.asp,Ajax:welcome.asp*/
+.logTb{
+border:2px solid #DAEBEF;
+width:600px;
+margin-bottom:10px;
+}
+.logTb thead{
+font-weight:bold;
+text-align:center;
+background-color:#C7DAE9;
+}
+.logTb tbody{
+text-align:center;
+}
+
+/*orderDetail*/
+.orderText{
+border:solid 1px #079ddd;height:18px; width:80px;
+}
+
+
+/*按钮样式*/
+a.coolBtn{
+	text-align:center;
+	font-weight:bold;
+	width:70px;
+	height:22px;
+	line-height:25px;
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;
+	background-color:#3399FF;
+	font-size:12px;
+	color:#F3F3F3;
+	float:left;
+	margin:5px 0 5px 10px;
+	border-right:2px solid #CCCCCC;
+	border-bottom:2px solid #CCCCCC;
+}
+a.coolBtn:hover{
+	color:#FFFFFF;
+	background-color:#6699CC;
+	border-right:2px solid  #999999;
+	border-bottom:2px solid #999999;
+	text-decoration:none;
+}
+
+a.coolBtn2{
+	text-align:center;
+	font-weight:bold;
+	width:70px;
+	height:22px;
+	line-height:25px;
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;
+	background-color:#618db0;
+	
+	font-size:12px;
+	color:#F3F3F3;
+	float:left;
+	margin:5px 0 5px 12px;
+	border-left:2px solid #CCCCCC;
+	border-top:2px solid #CCCCCC;
+}
+a.coolBtn2:hover{
+	margin:5px 0 5px 13px;
+	color:yellow;
+	background-color:#6699CC;
+	border-left:2px solid  #999999;
+	border-top:2px solid  #999999;
+	text-decoration:none;
+}
+
+
+/*productEdit.asp图片列表*/
+#imgList{
+margin:0;
+padding:0;
+border:2px solid #DAEBEF;
+width:360px;
+height:auto;
+display:block;
+}
+#imgList ul{
+margin:0;
+padding:0;
+list-style:none;
+padding:7px 0 0 0;
+}
+#imgList ul li{
+list-style:none;
+width:350px;
+height:20px;
+line-height:25px;
+margin:2px 0 2px 0;
+}
+#imgList ul li .imgNo{
+text-align:center;
+display:block;
+height:20px;
+width:20px;
+line-height:20px;
+border:1px dotted #C7DAE9;
+float:left;
+font-weight:bold;
+margin-left:5px;
+}
+#imgList ul li a.jTip{
+text-align:left;
+margin-left:5px;
+display:block;
+height:20px;
+width:220px;
+line-height:20px;
+border:1px dotted #C7DAE9;
+float:left;
+margin:0 0 0 6px;
+}
+#imgList ul li a.jTip{
+text-decoration:none;
+border:1px dotted #C7DAE9;
+text-align:center;
+}
+#imgList ul li a.jTip:hover{
+text-decoration:none;
+border:1px solid #C7DAE9;
+}
+#imgList ul li a.ajaxOrder ,#imgList ul li a.ajaxDel{
+color:#6699CC;
+text-align:center;
+display:block;
+height:20px;
+width:20px;
+line-height:20px;
+border:1px dotted #C7DAE9;
+float:left;
+margin-left:6px;
+font-weight:bold;
+}
+#imgList ul li a.ajaxOrder:hover ,#imgList ul li a.ajaxDel:hover{
+text-decoration:none;
+border:1px solid #C7DAE9;
+color:#FF9900;
+}
+.addNewPic{}
+.addNewPic .intro{
+color:#6699CC;
+
+display:block;
+margin:4px;
+font-weight:bold;
+}

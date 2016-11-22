@@ -1,0 +1,220 @@
+.transferer2
+{
+	border: 1px solid #6BAF04;
+	/*background-color: #B4F155;*/
+	background-color: blue;
+	filter:alpha(opacity=30); 
+	-moz-opacity: 0.3; 
+	opacity: 0.3;
+}
+
+/*窗口3*/
+/*注意,设window的宽为w高为h,windowContent的要分别设为w-25,h-45,windowBottom和windowBottomContent的高设为h-30*/
+#window3
+{
+	position: absolute;
+	left: 130px;
+	top: 20px;
+	width: 400px;	/*这里设窗口宽与高*/
+	height: 300px;
+	overflow: hidden;
+	display: none;
+}
+#windowTop3
+{
+	height: 30px;
+	overflow: 30px;
+	background-image: url(../images/window_top_end.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: move;
+}
+#windowTopContent3
+{
+	margin-right: 13px;
+	background-image:url(../images/window_top_start.png);
+	background-position:left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #6caf00;
+}
+#windowMin3
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowMax3
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+#windowClose3
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowBottom3
+{
+	position: relative;
+	height: 270px;	/*这里设为窗口高度-30*/
+	background-image: url(../images/window_bottom_end.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+#windowBottomContent3
+{
+	position: relative;
+	height: 270px;	/*这里设为窗口高度-30*/
+	background-image: url(../images/window_bottom_start.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+}
+#windowResize3
+{
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	cursor: se-resize;
+}
+#windowContent3
+{
+	position:absolute;
+	top: 30px;
+	left: 10px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-right: 10px;
+	border: 1px solid #6caf00;
+	height: 255px;	/*这里设内容宽与高,注意分别减去25与45*/
+	width: 375px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #fff;
+}
+#windowContent3 *
+{
+	margin: 10px;
+}
+
+
+/*窗口4*/
+/*注意,设window的宽为w高为h,windowContent的要分别设为w-25,h-45,windowBottom和windowBottomContent的高设为h-30*/
+#window4
+{
+	position: absolute;
+	left: 200px;
+	top: 20px;
+	width: 250px;
+	height: 150px;
+	overflow: hidden;
+	display: none;
+}
+#windowTop4
+{
+	height: 30px;
+	overflow: 30px;
+	background-image: url(../images/window_top_end.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	cursor: move;
+}
+#windowTopContent4
+{
+	margin-right: 13px;
+	background-image:url(../images/window_top_start.png);
+	background-position:left top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #6caf00;
+}
+#windowMin4
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowMax4
+{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+	cursor: pointer;
+	display: none;
+}
+#windowClose4
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+#windowBottom4
+{
+	position: relative;
+	height: 120px;
+	background-image: url(../images/window_bottom_end.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+#windowBottomContent4
+{
+	position: relative;
+	height: 120px;
+	background-image: url(../images/window_bottom_start.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+}
+#windowResize4
+{
+	position: absolute;
+	right: 3px;
+	bottom: 5px;
+	cursor: se-resize;
+}
+#windowContent4
+{
+	position:absolute;
+	top: 30px;
+	left: 10px;
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-right: 10px;
+	border: 1px solid #6caf00;
+	height: 110px;
+	width: 225px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #fff;
+}
+#windowContent4 *
+{
+	margin: 10px;
+}

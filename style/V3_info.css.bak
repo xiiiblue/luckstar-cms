@@ -1,0 +1,24 @@
+/* CSS Document */
+
+body,td,th {color: #5D5D5D;font-size: 12px;font-family: Arial, Verdana, 宋体;}
+body {background-image:url(../images/Lii_01.jpg);background-repeat: repeat-x;background-color: #063436;margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px}
+
+.left{height:521px;	background-image:url(../images/L.S_15.jpg);background-repeat:repeat-x;background-color:#C1E6F6}
+.right{height:521px;background-color:#DFEEF5;}
+/*导航样式*/
+.menu {color:#999999;width:924px;background-image:url(../images/L.S_10.jpg);background-repeat:repeat-x;}
+.menu a:link {color: #E4E4E4;text-decoration: none;}
+.menu a:visited {text-decoration: none;color: #E4E4E4;}
+.menu a:hover {text-decoration: none;color:#FFFFCC;}
+.menu a:active {text-decoration: none;color: #FFFFFF;}
+
+/*各色字体*/
+.write_big{color:#FFFFFF; font-weight:bold; letter-spacing:3px}
+.yellow{color:#FF6600}
+.blue_01{color:#9CC1D1}
+
+/*left 链接背景*/
+.left_bg{background:url(../images/L_01.jpg); height:27px; vertical-align:middle}
+.left_bg_over{background:url(../images/L_over.jpg); height:27px}
+/*透明背景*/
+.alpha_write{ background:#FFFFFF; filter:alpha(opacity=20);}
